@@ -15,7 +15,7 @@ SELECT ncbi_id FROM taxonomy WHERE species like '%Panthera tigris Sumatrae%';
 ```
 * Using this query we can get the ncbi_id of the *Sumatran Tiger* - **`9695`**
 
-<img src="1A.png" width="500" height="600"/>
+<img src="1A.png" width="800" height="600"/>
 
 ## B. Find all the columns that can be used to connect the tables in the given database.
 
@@ -41,7 +41,7 @@ LIMIT 0, 1;
 ```
 * Using the query above, the type of rice that has the longest DNA Sequence is  **`Oryza Sativa indica`**.
 
-<img src="1C.png" width="500" height="600">
+<img src="1C.png" width="1000" height="600">
 
 ## D. We want to paginate a list of the family names and their longest DNA sequence lengths (in descending order of length) where only families that have DNA sequence lengths greater than 1,000,000 are included. Give a query that will return the 9th page when there are 15 results per page. 
 > (hint: we need the family accession ID, family name and the maximum length in the results)
