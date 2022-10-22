@@ -1,4 +1,4 @@
-# 1. The following questions test your aptitude for interacting with databases. 
+# 1. The following questions test our aptitude for interacting with databases. 
 > The questions are based off the following public SQL DB: https://docs.rfam.org/en/latest/database.html
 
 ## Q A. How many types of tigers can be found in the taxonomy table of the dataset? What is the "ncbi_id" of the Sumatran Tiger? 
@@ -11,7 +11,7 @@ SELECT COUNT(*) FROM taxonomy WHERE species like '%Panthera tigris%';
 * Using the above query, there are **`8`** different types of tigers
 
 ```sql
-SELECT ncbi_id FROM taxonomy WHERE species like '%Panthera tigris Sumatrae%';
+SELECT ncbi_id FROM taxonomy WHERE species like '%Panthera tigris sumatrae%';
 ```
 * Using this query we can get the ncbi_id of the *Sumatran Tiger* - **`9695`**
 
